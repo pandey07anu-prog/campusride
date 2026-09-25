@@ -1,0 +1,28 @@
+{
+  "appId": "com.campusride.app",
+  "appName": "CampusRide",
+  "webDir": "dist",
+  "server": {
+    "url": "https://campusride-orpin.vercel.app",
+    "cleartext": false,
+    "allowNavigation": [
+      "*.vercel.app",
+      "campusride-orpin.vercel.app",
+      "campusride-backend-03ea.onrender.com"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#0B0F17",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "spinnerColor": "#10B981"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0B0F17"
+    }
+  }
+}
